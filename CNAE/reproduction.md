@@ -128,7 +128,7 @@ This guide will walk you through the steps to reproduce the load generation setu
             print(f"Normal load with {normal_users} users.")
             run_locust(normal_users, normal_run_time, report_name)
 
-            # Spike load
+            # Spike load. The app will crash above 2000 users
             spike_users = random.randint(2000, 3000)
             spike_run_time = "1m"
 
