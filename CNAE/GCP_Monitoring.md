@@ -1,6 +1,6 @@
 Created with ChatGPT
 
-```markdown
+
 # Viewing Monitoring Data in Google Cloud Platform
 
 ## 1. Enable Google Cloud Monitoring API
