@@ -31,7 +31,6 @@ Create the Load Test Script
 Create a file named load_test.py with the following content:
 
 \```python
-Code kopieren
 from locust import HttpUser, TaskSet, task, between
 
 class UserBehavior(TaskSet):
