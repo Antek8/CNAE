@@ -30,7 +30,7 @@ Create the Load Test Script
 
 Create a file named load_test.py with the following content:
 
-python
+\```python
 Code kopieren
 from locust import HttpUser, TaskSet, task, between
 
@@ -75,7 +75,7 @@ class WebsiteUser(HttpUser):
     tasks = [UserBehavior]
     wait_time = between(1, 5)  # Simulate users waiting between 1 and 5 seconds between tasks
 Create the Load Generation Script
-
+\```
 Create a file named generate_load.py with the following content:
 
 python
