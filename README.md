@@ -231,5 +231,4 @@ kubectl apply -f https://github.com/GoogleCloudPlatform/k8s-stackdriver/blob/mas
 
 ## Conclusion
 By following these steps, you can reproduce the load generation setup and test the performance of your microservices architecture using Locust. You can also set up and view monitoring data in Google Cloud Platform to gain insights into the system's scalability, reliability, and performance under load. The generated report and monitoring dashboards will provide valuable metrics for analyzing and improving your microservices.
-```
 
