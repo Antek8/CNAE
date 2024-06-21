@@ -118,3 +118,7 @@ In the Litmus Dashboard, navigate to the "Experiments" section and create a new 
 ### 6. Run the Experiment
 
 Once configured, initiate the chaos experiment within the Litmus Dashboard. The experiment will simulate the chosen fault and monitor the application's behavior using the defined health probe.
+
+## Preconfigured Chaos Experiments
+
+Preconfigured YAML chaos experiment manifests can be found [here](experiment-manifests).
