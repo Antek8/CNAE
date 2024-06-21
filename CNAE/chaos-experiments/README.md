@@ -122,3 +122,7 @@ Once configured, initiate the chaos experiment within the Litmus Dashboard. The 
 ## Preconfigured Chaos Experiments
 
 Preconfigured YAML chaos experiment manifests can be found [here](experiment-manifests).
+
+## Experiments Results
+
+JSON with the chaos experiments execution results can be found [here](chaos-results.json).

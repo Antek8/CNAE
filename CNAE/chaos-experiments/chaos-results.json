@@ -1,0 +1,1092 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T14:50:50Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "e11cdd37-a66e-48f5-b06f-40309bc055ef",
+                    "batch.kubernetes.io/job-name": "pod-delete-7r7q6x",
+                    "chaosUID": "f9d3f677-9e86-42bf-8523-793261f7c8e2",
+                    "controller-uid": "e11cdd37-a66e-48f5-b06f-40309bc055ef",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-7r7q6x",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716734997474-606955248",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "eb47de01-1329-41dd-82c3-1cddbe5a1fde"
+                },
+                "name": "pod-delete-16jfw7cd-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "78017",
+                "uid": "0a6c0587-4b6a-4176-bff3-24b42f928880"
+            },
+            "spec": {
+                "engine": "pod-delete-16jfw7cd",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed_With_Probe_Failure",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Fail"
+                },
+                "history": {
+                    "failedRuns": 1,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "cartservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Actual value: 500. Expected value: should be equal to 200",
+                            "verdict": "Failed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T14:53:22Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "4d1e5c8c-5106-49d5-b9ca-66c534f6023b",
+                    "batch.kubernetes.io/job-name": "pod-delete-x5ruoo",
+                    "chaosUID": "510aca94-35d2-4a95-bc25-79a80a2b0d2a",
+                    "controller-uid": "4d1e5c8c-5106-49d5-b9ca-66c534f6023b",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-x5ruoo",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716735151690-809161161",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "c1692c7d-f514-46e1-a791-4a430e488365"
+                },
+                "name": "pod-delete-16jgtv6c-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "78758",
+                "uid": "3181ccb8-4f8e-4f9c-8ccf-159728310872"
+            },
+            "spec": {
+                "engine": "pod-delete-16jgtv6c",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed_With_Probe_Failure",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Fail"
+                },
+                "history": {
+                    "failedRuns": 1,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "cartservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Actual value: 500. Expected value: should be equal to 200",
+                            "verdict": "Failed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T10:45:45Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "d3c6cac8-fce9-4056-bc32-5d23d40b47d7",
+                    "batch.kubernetes.io/job-name": "pod-delete-jetkr8",
+                    "chaosUID": "55229ae1-586e-4c71-a779-a230b6e16905",
+                    "controller-uid": "d3c6cac8-fce9-4056-bc32-5d23d40b47d7",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-jetkr8",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716720294740-3187468097",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "050f100a-904a-4589-98e6-9cfbaa9a1b58"
+                },
+                "name": "pod-delete-1mi6dpzh-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "68375",
+                "uid": "76762610-fb8f-4939-834f-3d9fcd05e2fb"
+            },
+            "spec": {
+                "engine": "pod-delete-1mi6dpzh",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "cartservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "SOT",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T10:29:14Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "3a5b2058-f92a-4320-9a9a-0525e7839d79",
+                    "batch.kubernetes.io/job-name": "pod-delete-f2usnv",
+                    "chaosUID": "053fcde5-9209-4c64-92bf-c8614a7f2de6",
+                    "controller-uid": "3a5b2058-f92a-4320-9a9a-0525e7839d79",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-f2usnv",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716719303294-1735557882",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "4fba6442-0385-45c9-a2f3-8c977220bbda"
+                },
+                "name": "pod-delete-1midgtpq-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "65672",
+                "uid": "acf8df50-ceea-451e-9a9c-1d07c0695cbb"
+            },
+            "spec": {
+                "engine": "pod-delete-1midgtpq",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "errorOutput": {
+                        "errorCode": "HTTP_PROBE_ERROR",
+                        "reason": "{\"errorCode\":\"HTTP_PROBE_ERROR\",\"phase\":\"PreChaos\",\"reason\":\"Get \\\"http://localhost:8080\\\": dial tcp [::1]:8080: connect: connection refused\",\"target\":\"{name: check-health}\"}"
+                    },
+                    "phase": "Error",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Error"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "SOT",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Either probe is not executed or not evaluated",
+                            "verdict": "N/A"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T10:08:11Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "09a7cbc3-eee8-48b4-8360-dab15a170fd2",
+                    "batch.kubernetes.io/job-name": "pod-delete-h1j4v3",
+                    "chaosUID": "54524c8b-5be3-4bb5-83f9-9ab16a0db642",
+                    "controller-uid": "09a7cbc3-eee8-48b4-8360-dab15a170fd2",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-h1j4v3",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716718040854-2603617875",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "ff15bb57-03cd-40bd-8201-2523d3d0d992"
+                },
+                "name": "pod-delete-1migdz7t-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "62446",
+                "uid": "4a10e99d-bde5-4a20-ab74-6aeb959c02d5"
+            },
+            "spec": {
+                "engine": "pod-delete-1migdz7t",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "errorOutput": {
+                        "errorCode": "HTTP_PROBE_ERROR",
+                        "reason": "{\"errorCode\":\"HTTP_PROBE_ERROR\",\"phase\":\"PreChaos\",\"reason\":\"Get \\\"10.110.191.102\\\": unsupported protocol scheme \\\"\\\"\",\"target\":\"{name: check-health}\"}"
+                    },
+                    "phase": "Error",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Error"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "SOT",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Either probe is not executed or not evaluated",
+                            "verdict": "N/A"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T10:03:26Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "1f392cc1-22da-4936-b85a-bd9a9d4fb2f0",
+                    "batch.kubernetes.io/job-name": "pod-delete-rbdx3u",
+                    "chaosUID": "00906d34-34f1-4f3c-b959-8badadd4784b",
+                    "controller-uid": "1f392cc1-22da-4936-b85a-bd9a9d4fb2f0",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-rbdx3u",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716717597425-4060515879",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "3109cbfb-f666-4503-98d7-1c0fd28e87b1"
+                },
+                "name": "pod-delete-1mil9vzr-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "61641",
+                "uid": "b6eae0fa-7ceb-46f3-a739-930a103bb472"
+            },
+            "spec": {
+                "engine": "pod-delete-1mil9vzr",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "errorOutput": {
+                        "errorCode": "HTTP_PROBE_ERROR",
+                        "reason": "{\"errorCode\":\"HTTP_PROBE_ERROR\",\"phase\":\"PreChaos\",\"reason\":\"Get \\\"http://localhost:8080\\\": dial tcp [::1]:8080: connect: connection refused\",\"target\":\"{name: check-health}\"}"
+                    },
+                    "phase": "Error",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Error"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "SOT",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Either probe is not executed or not evaluated",
+                            "verdict": "N/A"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T10:43:00Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "3d5fb89d-3889-4969-a7c4-f31effecb034",
+                    "batch.kubernetes.io/job-name": "pod-delete-pz67cn",
+                    "chaosUID": "90322618-301c-4b4a-86c8-581b205686e0",
+                    "controller-uid": "3d5fb89d-3889-4969-a7c4-f31effecb034",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-pz67cn",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716720129269-1019112128",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "0b4741f8-66bc-40f8-8705-db177cc0eb72"
+                },
+                "name": "pod-delete-1mimcf4f-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "67744",
+                "uid": "5e73c176-9bd2-40d9-ae57-40ccb8506982"
+            },
+            "spec": {
+                "engine": "pod-delete-1mimcf4f",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "errorOutput": {
+                        "errorCode": "HTTP_PROBE_ERROR",
+                        "reason": "{\"errorCode\":\"HTTP_PROBE_ERROR\",\"phase\":\"PreChaos\",\"reason\":\"Get \\\"http://127.0.0.1:56328\\\": dial tcp 127.0.0.1:56328: connect: connection refused\",\"target\":\"{name: check-health}\"}"
+                    },
+                    "phase": "Error",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Error"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "SOT",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Either probe is not executed or not evaluated",
+                            "verdict": "N/A"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-26T10:12:08Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "611051e9-92fc-4189-8a96-e0d78aa0c64c",
+                    "batch.kubernetes.io/job-name": "pod-delete-kalnzs",
+                    "chaosUID": "f6cdabdb-9a8c-485d-acf9-dc170c341f1e",
+                    "controller-uid": "611051e9-92fc-4189-8a96-e0d78aa0c64c",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-kalnzs",
+                    "name": "pod-delete",
+                    "step_pod_name": "cart-service-kill-1716718276753-2136932850",
+                    "workflow_name": "cart-service-kill",
+                    "workflow_run_id": "2512f0d7-2dd0-4e5a-9dc0-b286322de05b"
+                },
+                "name": "pod-delete-1mithqcg-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "63141",
+                "uid": "77e0e2a5-b886-4eb9-9ea5-fcdd596cccae"
+            },
+            "spec": {
+                "engine": "pod-delete-1mithqcg",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "errorOutput": {
+                        "errorCode": "HTTP_PROBE_ERROR",
+                        "reason": "{\"errorCode\":\"HTTP_PROBE_ERROR\",\"phase\":\"PreChaos\",\"reason\":\"Get \\\"10.105.27.187\\\": unsupported protocol scheme \\\"\\\"\",\"target\":\"{name: check-health}\"}"
+                    },
+                    "phase": "Error",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Error"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "SOT",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Either probe is not executed or not evaluated",
+                            "verdict": "N/A"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T08:34:55Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "53fe572f-ecb4-4e30-9c08-ec1c95fe6a1d",
+                    "batch.kubernetes.io/job-name": "pod-delete-rb9p6k",
+                    "chaosUID": "ec174c7a-b111-40e5-978c-777dd45fe05d",
+                    "controller-uid": "53fe572f-ecb4-4e30-9c08-ec1c95fe6a1d",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-rb9p6k",
+                    "name": "pod-delete",
+                    "step_pod_name": "ad-service-kill-frontend-ok-1716971641076-2200268017",
+                    "workflow_name": "ad-service-kill-frontend-ok",
+                    "workflow_run_id": "1156cedb-b8a7-45df-8298-6ac517ed1cb8"
+                },
+                "name": "pod-delete-fc9jvs7j-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "101983",
+                "uid": "f1ed31ff-c3e5-4c99-a781-616dfcf9b5d9"
+            },
+            "spec": {
+                "engine": "pod-delete-fc9jvs7j",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "adservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T09:05:40Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "43efaf55-6217-4e5c-8e92-3c53f45c6d90",
+                    "batch.kubernetes.io/job-name": "pod-delete-m9w3cu",
+                    "chaosUID": "90625f7a-8bdd-4ce5-8cd2-42193f2dfe6a",
+                    "controller-uid": "43efaf55-6217-4e5c-8e92-3c53f45c6d90",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-m9w3cu",
+                    "name": "pod-delete",
+                    "step_pod_name": "productcatalog-service-kill-frontend-ok-1716973489245-958609821",
+                    "workflow_name": "productcatalog-service-kill-frontend-ok",
+                    "workflow_run_id": "3c482255-6d1d-40cf-a4b2-63677dcde44e"
+                },
+                "name": "pod-delete-ftcw26pm-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "108728",
+                "uid": "9380bf1e-00c1-45aa-9ef1-6c2f01998704"
+            },
+            "spec": {
+                "engine": "pod-delete-ftcw26pm",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed_With_Probe_Failure",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Fail"
+                },
+                "history": {
+                    "failedRuns": 1,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "productcatalogservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Actual value: 500. Expected value: should be equal to 200",
+                            "verdict": "Failed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T08:39:53Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "db7b4d80-eb9a-4fac-9495-dd4d6ce6deb9",
+                    "batch.kubernetes.io/job-name": "pod-delete-yepgqc",
+                    "chaosUID": "b4f73bc1-f2ba-45c7-bffa-0c80448ee98d",
+                    "controller-uid": "db7b4d80-eb9a-4fac-9495-dd4d6ce6deb9",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-yepgqc",
+                    "name": "pod-delete",
+                    "step_pod_name": "checkout-service-kill-frontend-ok-1716971941029-4008954577",
+                    "workflow_name": "checkout-service-kill-frontend-ok",
+                    "workflow_run_id": "cf6909d3-4d0d-4532-92d3-ba62cb66f0ec"
+                },
+                "name": "pod-delete-jppsrn2h-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "103008",
+                "uid": "11df0527-9ed9-4c8b-a5c4-c06157bceb3f"
+            },
+            "spec": {
+                "engine": "pod-delete-jppsrn2h",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "checkoutservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T09:19:33Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "b4fc1c9c-a7a0-4dde-90a7-9f8afd78cb7e",
+                    "batch.kubernetes.io/job-name": "pod-delete-hro1wl",
+                    "chaosUID": "355e15a7-fbd3-4d1a-b885-14eb777721ad",
+                    "controller-uid": "b4fc1c9c-a7a0-4dde-90a7-9f8afd78cb7e",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-hro1wl",
+                    "name": "pod-delete",
+                    "step_pod_name": "shipping-service-kill-frontend-ok-1716974322218-2793854043",
+                    "workflow_name": "shipping-service-kill-frontend-ok",
+                    "workflow_run_id": "7a360688-42ce-4602-9e20-966c33b3586b"
+                },
+                "name": "pod-delete-jyyl2ncw-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "111931",
+                "uid": "2caa3465-4126-4237-97b2-f4ec314b7e69"
+            },
+            "spec": {
+                "engine": "pod-delete-jyyl2ncw",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "shippingservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T08:54:25Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "e6bb9f40-abea-4647-b9fc-cca2e0a5f523",
+                    "batch.kubernetes.io/job-name": "pod-delete-j6ygdj",
+                    "chaosUID": "88f97ab5-1d7f-4a73-8376-4427dd2277e8",
+                    "controller-uid": "e6bb9f40-abea-4647-b9fc-cca2e0a5f523",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-j6ygdj",
+                    "name": "pod-delete",
+                    "step_pod_name": "email-service-kill-frontend-ok-1716972814247-894919216",
+                    "workflow_name": "email-service-kill-frontend-ok",
+                    "workflow_run_id": "9d607db4-4d02-4396-b410-5a50fe4cf49a"
+                },
+                "name": "pod-delete-kcy746ch-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "106323",
+                "uid": "7ef74643-78ee-459b-9bd0-d744b4162b33"
+            },
+            "spec": {
+                "engine": "pod-delete-kcy746ch",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "emailservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T08:57:39Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "7fd955e4-9d9b-4f96-8435-ff9e2c293c3e",
+                    "batch.kubernetes.io/job-name": "pod-delete-9yz4p9",
+                    "chaosUID": "ebf1f9b2-0d0f-4b93-9457-d2c9bb83bd1d",
+                    "controller-uid": "7fd955e4-9d9b-4f96-8435-ff9e2c293c3e",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-9yz4p9",
+                    "name": "pod-delete",
+                    "step_pod_name": "payment-service-kill-frontend-ok-1716973007219-3338418278",
+                    "workflow_name": "payment-service-kill-frontend-ok",
+                    "workflow_run_id": "5c842cbc-3e00-4721-a084-af8275b4e360"
+                },
+                "name": "pod-delete-rrwldwfd-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "107193",
+                "uid": "f2ace95a-116f-4691-92f0-d9a56e45dd00"
+            },
+            "spec": {
+                "engine": "pod-delete-rrwldwfd",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "paymentservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T09:16:06Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "ca8d3f21-91bd-4690-bbca-fbf135a883a3",
+                    "batch.kubernetes.io/job-name": "pod-delete-odxcq0",
+                    "chaosUID": "01c5f58f-1cb3-4de3-a2fc-4ba49b64cb44",
+                    "controller-uid": "ca8d3f21-91bd-4690-bbca-fbf135a883a3",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-odxcq0",
+                    "name": "pod-delete",
+                    "step_pod_name": "redis-cart-kill-frontend-ok-1716974114254-724097004",
+                    "workflow_name": "redis-cart-kill-frontend-ok",
+                    "workflow_run_id": "969a7c3a-7982-4191-9596-1d7c9179e7ad"
+                },
+                "name": "pod-delete-tz08mzcg-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "111030",
+                "uid": "f7c4623d-3976-4ae0-a9b2-dc31551f64d5"
+            },
+            "spec": {
+                "engine": "pod-delete-tz08mzcg",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "redis-cart"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T08:48:20Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "4bc6a5e7-87f8-4c40-ba6d-c345efe24efc",
+                    "batch.kubernetes.io/job-name": "pod-delete-ur6tws",
+                    "chaosUID": "b9e476c6-f608-4dc5-b4eb-04736b706e78",
+                    "controller-uid": "4bc6a5e7-87f8-4c40-ba6d-c345efe24efc",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-ur6tws",
+                    "name": "pod-delete",
+                    "step_pod_name": "currency-service-kill-frontend-health-1716972449126-1369889568",
+                    "workflow_name": "currency-service-kill-frontend-health",
+                    "workflow_run_id": "f859bb9e-cd01-4518-9637-796a4050950a"
+                },
+                "name": "pod-delete-xtlxrx2s-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "105036",
+                "uid": "1d0514f4-fb52-45fc-ac83-c1b50ee21e77"
+            },
+            "spec": {
+                "engine": "pod-delete-xtlxrx2s",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed_With_Probe_Failure",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Fail"
+                },
+                "history": {
+                    "failedRuns": 1,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "currencyservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Actual value: 500. Expected value: should be equal to 200",
+                            "verdict": "Failed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T08:44:17Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "aa42e950-4c44-4dde-9379-82d8eb137a50",
+                    "batch.kubernetes.io/job-name": "pod-delete-53l9k8",
+                    "chaosUID": "18c99b67-b6e5-422b-a3e3-4406aab1c4aa",
+                    "controller-uid": "aa42e950-4c44-4dde-9379-82d8eb137a50",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-53l9k8",
+                    "name": "pod-delete",
+                    "step_pod_name": "currency-service-kill-frontend-health-1716972205535-853931482",
+                    "workflow_name": "currency-service-kill-frontend-health",
+                    "workflow_run_id": "1f1ced29-7014-4f23-8de2-c80e1208f7aa"
+                },
+                "name": "pod-delete-xtlxtzh2-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "104060",
+                "uid": "2d3455ce-4240-4523-94f8-be02a49cd548"
+            },
+            "spec": {
+                "engine": "pod-delete-xtlxtzh2",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed_With_Probe_Failure",
+                    "probeSuccessPercentage": "0",
+                    "verdict": "Fail"
+                },
+                "history": {
+                    "failedRuns": 1,
+                    "passedRuns": 0,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "currencyservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "Actual value: 500. Expected value: should be equal to 200",
+                            "verdict": "Failed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "litmuschaos.io/v1alpha1",
+            "kind": "ChaosResult",
+            "metadata": {
+                "creationTimestamp": "2024-05-29T09:11:48Z",
+                "generation": 2,
+                "labels": {
+                    "app.kubernetes.io/component": "experiment-job",
+                    "app.kubernetes.io/part-of": "litmus",
+                    "app.kubernetes.io/version": "3.7.0",
+                    "batch.kubernetes.io/controller-uid": "e15c0db3-73d9-41d4-a258-51172b65f6a5",
+                    "batch.kubernetes.io/job-name": "pod-delete-ej2jkz",
+                    "chaosUID": "b31f3251-fd5a-4b88-a32d-44b2eb8a901a",
+                    "controller-uid": "e15c0db3-73d9-41d4-a258-51172b65f6a5",
+                    "infra_id": "fc574dec-64b5-4e5d-8e60-b679b17900fe",
+                    "job-name": "pod-delete-ej2jkz",
+                    "name": "pod-delete",
+                    "step_pod_name": "recommendation-service-frontend-kill-1716973855477-2249923357",
+                    "workflow_name": "recommendation-service-frontend-kill",
+                    "workflow_run_id": "35a217cb-a36c-4ed9-ac75-b9de8b972e1a"
+                },
+                "name": "pod-delete-yz49bzwr-pod-delete",
+                "namespace": "litmus",
+                "resourceVersion": "110012",
+                "uid": "cdc688f6-c7dd-4222-a0d5-6933a79760a9"
+            },
+            "spec": {
+                "engine": "pod-delete-yz49bzwr",
+                "experiment": "pod-delete"
+            },
+            "status": {
+                "experimentStatus": {
+                    "phase": "Completed",
+                    "probeSuccessPercentage": "100",
+                    "verdict": "Pass"
+                },
+                "history": {
+                    "failedRuns": 0,
+                    "passedRuns": 1,
+                    "stoppedRuns": 0,
+                    "targets": [
+                        {
+                            "chaosStatus": "targeted",
+                            "kind": "deployment",
+                            "name": "recommendationservice"
+                        }
+                    ]
+                },
+                "probeStatuses": [
+                    {
+                        "mode": "Continuous",
+                        "name": "check-health",
+                        "status": {
+                            "description": "The URL http://frontend-external.default.svc.cluster.local did respond with correct status code. Actual code: '200'. Expected code: '200'",
+                            "verdict": "Passed"
+                        },
+                        "type": "httpProbe"
+                    }
+                ]
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
